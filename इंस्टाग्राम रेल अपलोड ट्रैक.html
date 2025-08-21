@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>Reels Guide App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff4b1f, #1fddff);
+      margin: 0;
+      padding: 0;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 30px;
+      background: #ffeb3b;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #ffc107;
+    }
+  </style>
+</head>
+<body>
+  <header>📲 Instagram Reels upload @creative_video_reel</header>
+
+  <div class="card">
+    <h2>Step 1</h2>
+    <p>सबसे पहले आपको मेरे यूट्यूब चैनल सब्सक्राइब कर लेना है उसके बाद यहां पर व्हाट्सएप की लिंक ओपन हो जाएगी उसे पर आपको क्लिक कर देना है</p>
+  </div>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>Unlock Link Example</title>
+</head>
+<body>
+
+<h2>🔗 सबसे पहले इस लिंक पर जाएं:</h2>
+<a href="https://www.youtube.com/@KKGAMINGDAMOH"> <target="_blank" onclick="visited()">👉 पहली लिंक</a>
+
+<br><br>
+
+<div id="secondLink" style="display:none;">
+  <h2>✅ अब यह लिंक अनलॉक हो गई:</h2>
+  <a href="https://whatsapp.com/channel/0029Vb6VIzmGOj9f4Ey7Gj1P"> <target="_blank">👉 दूसरी लिंक</a>
+</div>
+
+<script>
+  // जब पहली लिंक पर क्लिक होगा
+  function visited() {
+    localStorage.setItem("visitedFirst", "yes");
+  }
+
+  // जब पेज दुबारा खुलेगा तो चेक होगा
+  window.onload = function() {
+    if(localStorage.getItem("visitedFirst") === "yes") {
+      document.getElementById("secondLink").style.display = "block";
+    }
+  }
+</script>
+
+</body>
+</html>
+    
+    
+  <div class="card">
+    <h2>Step 2</h2>
+    <p>हमारे व्हाट्सएप चैनल को ओपन करने के बाद वहां पर आपको कुछ वीडियो मिल जाएंगे उसको आपको डाउनलोड कर लेना है</p>
+  </div>
+
+  <div class="card">
+    <h2>Step 3</h2>
+    <p>डाउनलोड करने के बाद वहां पर आपको नीचे कैप्शन देखेगी उसको भी कॉपी कर लेना है</p>
+  </div>
+
+  <div class="card">
+    <h2>Step 4</h2>
+    <p>कैप्शन लिखें और "Share" दबाकर Reel अपलोड करें।</p>
+  </div>
+    
+    <div class="card">
+    <h2>Step 5</h2>
+    <p>आपकी रियल पक्का बदल जाएगी इसलिए मुझे फॉलो कर लेना</p>
+
+  <button onclick="alert('अब आप Reels Upload करना सीख गए 🎉')">✔ Done</button>
+
+</body>
+</html>
